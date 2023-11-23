@@ -1,8 +1,13 @@
 import { css, Global } from "@emotion/react";
 
 const styles = css`
-  * {
-    font-family: "Montserrat", sans-serif;
+  return {
+    html: {
+      fontFamily: theme.fontFamily,
+    },
+    body: {
+      margin: 0,
+    }
   }
 `;
 
