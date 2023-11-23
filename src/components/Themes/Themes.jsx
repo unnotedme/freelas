@@ -6,12 +6,12 @@ const theme = {
         warning: '',
         focus: '',
         primary: {
-            a: '',
+            a: '#5754ED',
             b: '',
             c: ''
         },
         secundary: {
-            a: '',
+            a: '#EBEAF9',
             b: '',
             c: ''
         },
@@ -24,8 +24,14 @@ const theme = {
             a: '',
             b: ''
         }
-    }
-
+    },
+    spacing: {
+        xs: '8px',
+        s : '16px',
+        l : '32px',
+        xl: '48px'
+    },
+    fontFamily: " 'Montserrat', sans-serif;"
 }
 
 export const Themes = ({ children }) => {
